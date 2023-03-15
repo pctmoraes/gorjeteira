@@ -1,16 +1,15 @@
-@import url(https://fonts.googleapis.ccom/css?family=Lato:300,400,700|PT++Mono);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700|PT++Mono);
 
 :root {
     --primary-color: rgba(253, 0, 148, 0.274);
     --secondary-color: rgb(53, 53, 53);
     --tertiary-color: rgb(233, 233, 233);
-    /* --primary-color: rgb(73, 119, 150); */
 }
 
 body {
     background-color: var(--primary-color);
     font-size: 15px;
-    font-family: Lato, sans-serif;
+    font-family: sans-serif;
 }
 
 #container {
@@ -67,4 +66,10 @@ body {
     font-size: 17px;
     color: var(--secondary-color);
     border-radius:5px
+}
+
+#totalTip {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
 }

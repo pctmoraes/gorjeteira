@@ -1,6 +1,6 @@
 function calculateTip(event) {
     event.preventDefault();
-    let bill = window.document.getElementById('bill').value;
+    let bill = Number(window.document.getElementById('bill').value);
     let serviceQuality = window.document.getElementById('serviceQuality').value;
     let numberOfPeople = window.document.getElementById('people').value;
 
